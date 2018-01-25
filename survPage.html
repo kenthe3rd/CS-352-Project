@@ -7,9 +7,9 @@
 	<script type="text/javascript"
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 	</script>
-
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href=mainStyle.css>
+	<link rel="stylesheet" type="text/css" href=survStyle.css>
 	<style type="text/css">
 	</style>
 
@@ -41,29 +41,33 @@
 			</div>
 		</div>
 		<div id="containerContents">
-			<div id="containerContentsText">
-				SURV PAGE
+			<div id="containerContentsHeader">
+				Survivor Mode
 			</div>
+			<div class="containerBar">
+				<div class="containerBarButton">
+					<div class="buttonInnerCircle">
+					</div>
+				</div>
+				<div class="containerBarText">
+					Request Emergency Assistance
+				</div>
+			</div>
+			<div class="containerBar">
+				<div class="containerBarButton">
+					<div class="buttonInnerCircle">
+					</div>
+				</div>
+				<div class="containerBarText">
+					Report a Hazard in Your Area
+				</div>
+			</div>
+
 		</div>
 	</div>
-	<script type="text/javascript">
-		$("#survButton").click(function()
-		{
-			window.location.href="./survPage.html";
-		});
-		$("#respButton").click(function()
-		{
-			window.location.href="./respPage.html";
-		});
-		$("#voluntButton").click(function()
-		{
-			window.location.href="./voluntPage.html";
-		});
-		$("#coordButton").click(function()
-		{
-			window.location.href="./coordPage.html";
-		});
+	<script type="text/javascript" src="mainJavascript.js">
 	</script>
+
 </body>
 
 </html>
